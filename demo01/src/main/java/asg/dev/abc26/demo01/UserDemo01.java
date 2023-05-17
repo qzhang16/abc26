@@ -1,5 +1,5 @@
-package asg.dev.abc26.webapp.abc26.demo01;
-import asg.dev.abc26.webapp.abc26.jpaentities.User;
+package asg.dev.abc26.demo01;
+import asg.dev.abc26.jpaentities.User;
 
 public class UserDemo01 {
     public String firstName = "Jack";

@@ -15,9 +15,15 @@
     <dependencies>
         <dependency>
             <groupId>asg.dev</groupId>
-            <artifactId>web-api</artifactId>
+            <artifactId>converter</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+
+        </dependency>
+        <dependency>
+            <groupId>asg.dev</groupId>
+            <artifactId>jpa-entities</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
