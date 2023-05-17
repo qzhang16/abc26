@@ -1,4 +1,4 @@
-package asg.dev.abc26.jpaentities;
+package asg.dev.abc26.webapp.abc26.jpaentities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

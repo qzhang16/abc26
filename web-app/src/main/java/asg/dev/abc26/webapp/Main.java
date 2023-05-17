@@ -1,4 +1,7 @@
-package asg.dev.abc26.demo02;
+package asg.dev.abc26.webapp;
+
+import asg.dev.abc26.webapi.ObjectFactory;
+import asg.dev.abc26.webapi.UserCommand;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -15,5 +18,9 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
+
+        UserCommand userCommand = new ObjectFactory().createUserCommand();
+        System.out.println(userCommand.getFirstName());
+
     }
 }

@@ -1,4 +1,4 @@
-package asg.dev.abc26.demo01;
+package asg.dev.abc26.webapp.abc26.demo01;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
