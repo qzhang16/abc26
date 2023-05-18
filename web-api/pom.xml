@@ -6,7 +6,7 @@
     <parent>
         <groupId>asg.dev</groupId>
         <artifactId>abc26</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>web-api</artifactId>
@@ -15,19 +15,19 @@
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>2.4.0-b180830.0359</version>
+
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
-            <version>4.0.2</version>
+
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core -->
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-core</artifactId>
-            <version>4.0.2</version>
+
         </dependency>
 
     </dependencies>
