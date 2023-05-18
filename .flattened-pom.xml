@@ -56,21 +56,6 @@
         <artifactId>jaxb-core</artifactId>
         <version>4.0.2</version>
       </dependency>
-      <dependency>
-        <groupId>asg.dev</groupId>
-        <artifactId>web-api</artifactId>
-        <version>${revision}</version>
-      </dependency>
-      <dependency>
-        <groupId>asg.dev</groupId>
-        <artifactId>jpa-entities</artifactId>
-        <version>${revision}</version>
-      </dependency>
-      <dependency>
-        <groupId>asg.dev</groupId>
-        <artifactId>converter</artifactId>
-        <version>${revision}</version>
-      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>

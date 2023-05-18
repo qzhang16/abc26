@@ -20,13 +20,13 @@
         <dependency>
             <groupId>asg.dev</groupId>
             <artifactId>web-api</artifactId>
-
+<version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>asg.dev</groupId>
             <artifactId>jpa-entities</artifactId>
-
+<version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
 

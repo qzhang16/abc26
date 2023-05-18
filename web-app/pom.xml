@@ -16,12 +16,14 @@
         <dependency>
             <groupId>asg.dev</groupId>
             <artifactId>converter</artifactId>
+            <version>${project.version}</version>
 
 
         </dependency>
         <dependency>
             <groupId>asg.dev</groupId>
             <artifactId>jpa-entities</artifactId>
+            <version>${project.version}</version>
 
             <scope>test</scope>
         </dependency>
